@@ -1,1 +1,1 @@
-web gunicorn mysocial.wsgi:apllication --log-file -
+web: gunicorn mysocial.wsgi --log-file -
